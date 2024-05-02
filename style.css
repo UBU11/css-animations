@@ -13,9 +13,10 @@
     background-image : linear-gradient(to right,#dd0909 1px,transparent 1px),linear-gradient(to bottom,#2d09cf 1px,transparent 1px);
     background-size: 4vh 4vh;
   }
+
   h1{
     color: #068968;
-    font-size:9em ;
+    font-size:4em ;
     font-weight: 600;
     padding:0 100px;
   }
@@ -24,7 +25,7 @@
     color: rgba(0, 0, 0, 0.678);
     
     animation : displayText 9s infinate;
-    animation-delay:calc(-3s*var(--i)) ;
+    animation-delay:calc(-15s*var(--i)) ;
   }
   @keyframes displayText{
     0%
@@ -58,3 +59,8 @@
         width:100% ;
     }
   }
+
+  
+div{
+  margin: auto;
+}
